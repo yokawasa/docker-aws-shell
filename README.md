@@ -13,9 +13,10 @@ Usage Example
 -------------
 
 ```bash
-$ docker run --rm yoichikawasaki/aws-shell
+$ docker run --rm -it yoichikawasaki/aws-shell
 ```
 or you can build from Dockerfile and run your local images like this:
+
 ```bash
 $ docker build -t aws-shell .
 $ docker run --rm -it aws-shell
